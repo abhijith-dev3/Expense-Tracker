@@ -14,7 +14,7 @@ function App() {
   }, [expenses]);
 
   const addExpense = (expense) => {
-    setExpenses((prev) => [expense, ...prev]);
+    setExpenses((prev) => [expense,...prev]);
   };
 
   const deleteExpense = (id) => {
